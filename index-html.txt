@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RODX Logística</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Arial', sans-serif; }
+    .navbar { background-color: #002b5c; }
+    .navbar-brand img { height: 50px; }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                  url('frota.jpg') center/cover no-repeat;
+      color: white;
+      padding: 100px 0;
+    }
+    header h1 { font-weight: bold; }
+    .btn-red { background-color: #cc0000; color: white; }
+    .btn-yellow { background-color: #ffcc00; color: #002b5c; font-weight: bold; }
+    footer { background-color: #002b5c; color: white; }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="logo-rodx.png" alt="RODX Logística Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+        <li class="nav-item"><a class="nav-link" href="#frota">Frota</a></li>
+        <li class="nav-item"><a class="nav-link" href="#clientes">Clientes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="text-center">
+  <div class="container">
+    <h1 class="display-4">Excelência e Inovação em Logística</h1>
+    <p class="lead">Agilidade, segurança e eficiência no transporte de cargas em todo território nacional.</p>
+    <a href="#contato" class="btn btn-yellow btn-lg mt-3">Solicite um orçamento</a>
+  </div>
+</header>
+
+<section id="sobre" class="py-5">
+  <div class="container">
+    <h2 class="mb-4"><i class="bi bi-info-circle"></i> Sobre Nós</h2>
+    <p>A RODX Logística nasceu com propósito de oferecer agilidade, segurança e eficiência no transporte de todos os tipos de cargas em todo território nacional.</p>
+    <p><strong>Licenças:</strong> Polícia Federal, Polícia Civil, Exército, Ibama e órgãos ambientais.</p>
+  </div>
+</section>
+
+<section id="servicos" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4"><i class="bi bi-truck"></i> Serviços</h2>
+    <div class="row">
+      <div class="col-md-4"><div class="card shadow-sm border-danger"><div class="card-body"><h5 class="card-title text-danger">Fretes dedicados</h5><p>Transporte exclusivo para sua carga, com pontualidade e segurança.</p></div></div></div>
+      <div class="col-md-4"><div class="card shadow-sm border-danger"><div class="card-body"><h5 class="card-title text-danger">Cargas fechadas</h5><p>Soluções completas para grandes volumes e operações industriais.</p></div></div></div>
+      <div class="col-md-4"><div class="card shadow-sm border-danger"><div class="card-body"><h5 class="card-title text-danger">Cargas perigosas</h5><p>Equipe treinada e licenciada para transporte seguro de produtos especiais.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="frota" class="py-5">
+  <div class="container">
+    <h2 class="mb-4"><i class="bi bi-car-front"></i> Frota</h2>
+    <ul class="list-group">
+      <li class="list-group-item"><strong>Leves:</strong> Pick-up</li>
+      <li class="list-group-item"><strong>Médios:</strong> 3/4, Toco</li>
+      <li class="list-group-item"><strong>Semi-pesados:</strong> Truck, Bitruck</li>
+      <li class="list-group-item"><strong>Pesados:</strong> Carreta, Carreta LS, Vanderléia, Canguru</li>
+      <li class="list-group-item"><strong>Extra Pesados:</strong> Prancha</li>
+    </ul>
+  </div>
+</section>
+
+<section id="clientes" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4"><i class="bi bi-people"></i> Clientes</h2>
+    <div class="row row-cols-2 row-cols-md-4 g-3">
+      <div class="col"><div class="card p-3 text-center border-danger">Alcolina Química</div></div>
+      <div class="col"><div class="card p-3 text-center border-danger">Aratrop Brasil</div></div>
+      <div class="col"><div class="card p-3 text-center border-danger">Techgel</div></div>
+      <div class="col"><div class="card p-3 text-center border-danger">Grupo DND</div></div>
+      <div class="col"><div class="card p-3 text-center border-danger">Rosa Lima</div></div>
+      <div class="col"><div class="card p-3 text-center border-danger">Agroserra</div></div>
+      <div class="col"><div class="card p-3 text-center border-danger">Grupo ENG</div></div>
+      <div class="col"><div class="card p-3 text-center border-danger">Usina Sonora</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="py-5">
+  <div class="container">
+    <h2 class="mb-4"><i class="bi bi-envelope"></i> Contato</h2>
+    <p><strong>Endereço:</strong> Av. Nossa Senhora Aparecida, 1195, Sala 3, Sertãozinho-SP</p>
+    <p><strong>Telefone:</strong> (16) 97404-3309</p>
+    <p><strong>Email:</strong> fernando@rodxlog.com.br</p>
+    <form class="mt-3">
+      <div class="mb-3"><label class="form-label">Nome</label><input type="text" class="form-control" placeholder="Seu nome"></div>
+      <div class="mb-3"><label class="form-label">Email</label><input type="email" class="form-control" placeholder="seu@email.com"></div>
+      <div class="mb-3"><label class="form-label">Mensagem</label><textarea class="form-control" rows="4" placeholder="Escreva sua mensagem"></textarea></div>
+      <button type="submit" class="btn btn-red">Enviar</button>
+    </form>
+  </div>
+</section>
+
+<footer class="text-white text-center py-3">
+  <p>© 2026 RODX Logística - Todos os direitos reservados</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
